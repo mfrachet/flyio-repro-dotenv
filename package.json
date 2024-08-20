@@ -1,0 +1,20 @@
+{
+  "name": "root",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "packageManager": "pnpm@9.1.4",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "start:backend": "turbo start --filter=backend",
+    "db:generate:schema": "turbo db:generate:schema",
+    "ci": "turbo run lint type:check test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "turbo": "^2.0.11"
+  }
+}
